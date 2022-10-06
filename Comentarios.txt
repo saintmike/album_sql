@@ -1,0 +1,8 @@
+Modelo relacional - Se adjunta 
+Atomicidad - Sobre los SP's se maneja la profundidad de datos al querer insertar, actualizar o eliminar algun registro
+Diccionario de datos - Se adjunta archivo con la definicion
+Uso de FN y/o SP
+
+Se generó una funcion para hacer validacion de campos, que por lo menos no vengan vacios, se generó de esa forma ya que se pueden generar diferentes validaciones de ese tipo y reultizar la misma funcion en diferentes lados
+
+Se generó un SP por cada tipo de dato, para crear, actualizar, modificar o consultar informacion, se pensó de esta forma separada para que no haya error de usuario que quiera consultar y el SP termine eliminando el registro, asi aseguramos que si manda a llamar un SP en especifico solo hará validaciones del tipo de informacion que quiera.
